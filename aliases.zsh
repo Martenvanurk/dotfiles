@@ -6,6 +6,8 @@ alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-dire
 alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
+alias reloadcli="source ~/.zshrc"
+alias reloaddns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
